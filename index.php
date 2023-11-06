@@ -15,6 +15,14 @@ include "view-header.php";
 <p id="third">JavaScript can change the style of an HTML element.</p>
 <button type="button" onclick="document.getElementById('third').style.fontSize='35px'">Click Me!</button>
 
+<h4>and again</h4>
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="fourth" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('fourth').style.display='block'">Click Me!</button>
+
+
 <?php
 include "view-footer.php";
 ?>
