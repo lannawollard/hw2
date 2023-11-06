@@ -12,11 +12,8 @@ include "view-header.php";
 <button type="button" onclick='document.getElementById("second").innerHTML = "Told you!"'>Click Me!</button>
 
 <h3>and another one</h3>
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<p id="third">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="document.getElementById('third').style.fontSize='35px'">Click Me!</button>
 
 <?php
 include "view-footer.php";
