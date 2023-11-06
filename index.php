@@ -23,15 +23,11 @@ include "view-header.php";
 <button type="button" onclick="document.getElementById('fourth').style.display='block'">Click Me!</button>
 
 <h5>last example</h5>
-<button onclick="document.getElementById('myImage').src='laughing.jpeg'">Turn on the light</button>
 
-<img id="myImage" src="laughing.jpeg" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='laughing.jpeg'">Turn off the light</button>
 
 <body style = "text-align: center; font-size: 20px;">
 
-<h1> Welcome to the javaScript world!! </h1>
+
 
 Enter a particular number: <input id = "num">
 
