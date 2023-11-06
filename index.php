@@ -7,9 +7,10 @@ include "view-header.php";
 
 <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
 
+<h2>Java Script Examples</h2>
 <p id="second">JavaScript can change HTML content--just watch!.</p>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Told you!"'>Click Me!</button>
+<button type="button" onclick='document.getElementById("second").innerHTML = "Told you!"'>Click Me!</button>
 <?php
 include "view-footer.php";
 ?>
